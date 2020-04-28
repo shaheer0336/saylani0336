@@ -1,0 +1,250 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f7f8fa;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    background-color: rgb(8, 77, 167);
+}
+.headimg{
+    display: inline-block;
+    margin-left: 12%;
+    /* margin-top: 2px; */
+}
+.headimg > img{
+    padding: 12px;
+}
+ header >span{
+    /* margin: 0 auto; */
+    margin-left: 5%;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header > .toplink{
+    display: inline-block;
+    float: right;
+    margin-right: 15%; 
+    margin-top: 14px;
+}
+header >  .toplink >a{
+    font-size: 13px;
+    color: green;
+    padding: 6px 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid green;
+}
+.navbar{
+    background-color: #fff;
+    line-height: 30px;
+    /* position:fixed; */
+    /* width: 100%; */
+}
+.navbar > img ,nav{
+    display: inline-block;
+}
+nav{
+    margin-top: 2px;
+    float: right;
+    margin-right: 15%;
+}
+.navbar > img{
+    margin-top: 8px;
+    margin-left: 10%;
+}
+nav > ul >li{
+    display: inline-block;
+    margin: 0 12px;
+
+}
+nav > ul >li> a{
+    color: black;
+    font-size:18px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nested{
+    visibility: hidden;
+}
+nav > ul >li :hover{
+    visibility: visible;
+}
+.mainimg {
+    width: 100%;
+    height: 450px;
+}
+.m1{
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 75%;
+    line-height: 32px;
+    color: rgb(150, 241, 150);
+    background-color: #316DC3;
+}
+.mainintro{
+    margin-top: 20px ;
+    text-align: center;
+    padding-top: 32px;
+    background-color: #fff;
+}
+hr{
+    width: 2%;
+    color: green;
+    line-height: 12px;
+}
+.mainintro > img ,hr{
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+.mainpara{
+    /* border: 1px solid black; */
+   width: 63%;
+   font-family: "Open Sans", sans-serif;
+   line-height: 30px;
+  min-height: 540px;
+   margin-left: 19%;
+   font-size: 17px;
+   text-align: justify;
+}
+.workmain{
+    background-color: #316DC3;
+    height: 300px;
+
+}
+.workmain > .food ,.medical , .education , .family{
+    display: inline-block;
+    margin-top: 70px;
+    position: relative;
+    left: 9%; 
+}
+h2{
+    font-size: 50px;
+    margin: 0px;
+}
+/* h1 > .blue ,.green{
+    font-size: 40px;
+}
+.blue{
+    color: blue;
+} */
+.green{
+    color: rgb(0, 255, 0);
+}
+.food , .family , .education , .medical {
+    width:20%;
+    text-align: center;
+    color: white;
+}
+section{
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
+    width: 75%;
+    /* border: 1px solid black; */
+  
+    
+}
+.sadqah ,.welfare ,.medical1 , .dastarkhwan ,.ro , .edu{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 180px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 15px 12px rgba(206, 206, 206, 0.384);
+}
+section >h1{
+    font-size: 30px;
+}
+    /* .middlework{
+        margin-top: 100px;
+    } */
+.sadqah ,.welfare ,.medical1 , .dastarkhwan ,.ro , .edu > h3{
+    color: #316DC3;
+    font-size: 18px;
+    
+}
+.mission{
+    /* border: 1px solid red; */
+    margin-top: 45px;
+    margin-left: 220px;
+    width: 50%;
+}
+.mission > h2{
+    font-size: 30px;
+}
+.upcomingprojects{
+    margin-top: 20px;
+    /* width: 50%; */
+}
+.hepatitis , .housing , .it , .tharparkar{
+    border: 1px solid black;
+    width: 45%;
+    height: 70px;
+    margin: 10px;
+}
+.hepatitis , .housing , .it , .tharparkar > img , h4{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 6px;
+}
+.events {
+    float: right;
+}
+.gallery{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.images{
+    margin-top: 32px;
+}
+.images >img:hover{
+    width: 300px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.7);
+}
+.gallery > h2{
+    margin-top: 150px;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.footer{
+    background-color: #666666;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.footer >p ,.footer1{
+    margin-left: 220px;
+}
+.footer > p{
+    padding-top: 30px;
+}
+.footer > img ,span{
+    display: inline-block;
+}
+.footer1{
+    display: block;
+    margin: 12px 0;
+}
+.copyright{
+    background-color:#316DC3; 
+    /* margin-top: 0px; */
+    padding: 15px;
+}
+.copyright > span{
+    margin-left: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer >h4{
+    display: inline-block;
+}
